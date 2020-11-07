@@ -1,11 +1,10 @@
-baseURL = "https://onmyownti.me"
+baseURL = "https://template.onmyownti.me"
 languageCode = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
 title = "onmyownti.me"
-theme = ["omot-theme", "hugo-shortcode-gallery"]
-googleAnalytics = "UA-153610523-1"
-pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+theme = ["omot-theme"]
+pygmentsStyle            = "monokai"
 pygmentsCodefences       = true
 timeout = 3600000
 
@@ -18,8 +17,8 @@ timeout = 3600000
     homepage = "main"
 
 [[params.mainMenu]]
-	link = "/dialog"
-	text = "dialog"
+	link = "/blog"
+	text = "blog"
 
 [[params.mainMenu]]
 	link = "/photos"
