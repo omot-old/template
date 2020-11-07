@@ -42,6 +42,7 @@ jobs:
       with:
         personal_token: ${{ secrets.SOMMEA_PAT }}
         external_repository: omot/omot.github.io
+        CNAME: template.onmyownti.me
         PUBLISH_BRANCH: main
         PUBLISH_DIR: ./public
         allow_empty_commit: true
